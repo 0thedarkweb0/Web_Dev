@@ -5,3 +5,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[user]
+	email = 91978458+0thedarkweb0@users.noreply.github.com

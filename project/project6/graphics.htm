@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rent a Pet - Graphics</title>
+
+<style type="text/css">
+
+
+	#thumbs, #image {
+		width: 900px;
+		text-align: center;
+		margin: 0 auto 0 auto;
+		color: #000;
+	}
+
+	#thumbs {
+		margin-top: 10px;
+	}
+
+			
+	#thumbs img {
+		border: solid 1px #000;
+		margin: 5px;
+	}
+
+	#image{
+		height:500px;
+	}
+
+	.instructions{
+		font-style:italic;
+	}
+
+</style>
+
+<script language="JavaScript" type="text/javascript">
+
+	PrintButton1 = new Image
+	PrintButton2 = new Image
+	logo1 = new Image
+	logo2 = new Image
+if (document.images) {
+	PrintButton1.src = "images/print5.gif"
+	PrintButton2.src = "images/print6.gif"
+	logo1.src = "images/logo1.jpg"
+	logo2.src = "images/logo2.jpg"
+}
+
+
+		var imgArray = new Array(
+			'Image1Lg.jpg',
+			'Image2Lg.jpg',
+			'Image3Lg.jpg',
+			'Image4Lg.jpg'
+			
+
+		);
+
+
+		var titleArray = new Array(
+			'Dog Performing a Trick',
+			'Two Dogs',
+			'Dog and Two Boys Portrait',
+			'Woman and Dog'
+			
+		);
+			
+		var imgPath = "Images/Fullsize/";
+		
+		function swapImage(imgID) {
+
+			var theImage = document.getElementById('theImage');
+			var textDiv = document.getElementById('bottomText');
+
+			var newImg;
+			var textTitle;
+
+			newImg = imgArray[imgID];
+			theImage.src = imgPath + newImg;
+
+			textTitle=titleArray[imgID];
+
+      			textDiv.innerHTML = textTitle;
+		}
+			
+		function preloadImages() {		
+			for(var i = 0; i < imgArray.length; i++) {
+				var tmpImg = new Image;
+				tmpImg.src = imgPath + imgArray[i];
+			}
+		}
+		
+
+</script>
+
+
+</head>
+<body  onload="preloadImages()">
+
+<div align="center">
+
+<div>
+	<a href="" onMouseOver="document.PrintButton.src=PrintButton2.src;"
+	onMouseOut="document.PrintButton.src=PrintButton1.src;">
+
+	<img src="images/print5.gif" width="250" height="50" 
+	name="PrintButton" alt="PrintButton" style="border:none;"/>
+
+	</a>
+</div>
+
+
+<div id="logo">
+	<a href="logo.html" onMouseOver="document.logo.src=logo2.src;"
+	onMouseOut="document.logo.src=logo1.src;">
+
+	<img src="images/logo1.jpg" width="133" height="126" 
+	name="logo" alt="logo" style="border:none;"/>
+
+	</a>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+
+<div id="thumbs">
+		<img src="Images/Thumbnails/Image1Sm.jpg" alt="Dog doing Trick" onmouseover="swapImage(0);" />
+		<img src="Images/Thumbnails/Image2Sm.jpg" alt="Two hunting Dogs" onmouseover="swapImage(1);" />
+		<img src="Images/Thumbnails/Image3Sm.jpg" alt="Dog and two kids" onmouseover="swapImage(2);" />
+		<img src="Images/Thumbnails/Image4Sm.jpg" alt="Woman and Dog" onmouseover="swapImage(3);" />
+		
+</div>
+
+	<div id="image">
+
+		<img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Dog doing trick" />
+		<h3 id="bottomText">Newlyweds Sailing</h3>
+	</div>
+
+<img src="images/2colback.jpg">
+
+<br />
+<br />
+<br />
+<br />
+
+
+
+</div>
+
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+</p>
+  
+
+</body>
+</html>

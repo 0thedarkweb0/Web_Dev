@@ -53,7 +53,7 @@ header {
   width: 80%;
   padding: .75em 1em 0 0;
   opacity: .95;
-  background: none;
+  background: white;
 }
 .site-nav ul {
   list-style-type: none;

@@ -1,0 +1,1 @@
+a=MsgBox("Virus", 0, "virus")

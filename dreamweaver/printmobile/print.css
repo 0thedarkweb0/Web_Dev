@@ -1,0 +1,72 @@
+.print-off {
+	display: none;
+}
+
+
+body{
+	
+	
+	
+}
+
+#container{
+	width: 100%;  
+}
+
+
+#masthead{
+	width: 100%;
+}
+
+#masthead h1{
+	display: inline;
+}
+
+#navigation{
+	display: none
+
+}
+
+#navigation a:hover{
+	color: #FFFF00;
+	border: 2px outset #CCCCCC;
+
+}
+
+#maincontent
+{
+   width: 100%;
+}
+
+
+#leftcolumn{
+	width: 100%;
+	float:none;
+}
+
+#leftcolumn a:link:after, #leftcolumn a:visited:after
+{
+	content: "("attr(href)")";
+	font-size: 90%;
+}
+
+
+#rightcolumn{
+	width: 100%;
+	float: none;
+}
+
+
+#footer{
+	display: none
+}
+
+.moveleft
+{
+    width:25%;
+}
+
+.moveright
+{
+    width: 25%;
+}

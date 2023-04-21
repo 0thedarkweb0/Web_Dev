@@ -1,0 +1,61 @@
+.print-off {
+	display: none;
+}
+
+.hoverImg{
+	border: 5px double #8F480D;
+}
+body{
+	color: #FFFFFF;
+	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+header {
+	height: 150px;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding-top: 10px;
+	border: groove medium;
+	margin: auto;
+	width: 100%;
+}
+
+section {
+	width: 100%;
+	background-image:url('images/inner_background.gif');
+	overflow: hidden;
+	border-right: groove medium #442103;
+	border-left: groove medium #442103;
+	margin: auto;
+}	
+
+article {
+	width: 95%;
+	text-align: center;
+}
+
+footer {
+	display: none;
+}
+.logoleft{
+	float: left;
+	padding-left: 15px;
+}
+nav {
+		display: none;
+		
+}
+nav a{
+	border: 1px inset #B56726;
+	background-color: #B56726;
+	line-height:250%; 
+	color: #FFFFFF; 
+	font-weight: bold; 
+	font-size: 17px; 		
+	text-decoration: none;
+	width: 100%
+}
+nav a:hover{
+	color: yellow;
+	border: 2px outset #442103; 
+}
+

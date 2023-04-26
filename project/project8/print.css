@@ -6,25 +6,17 @@
 	border: 5px double #8F480D;
 }
 body{
-	color: #FFFFFF;
-	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	color: #000000;
+	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 header {
-	height: 150px;
-	background-color: #FFFFFF;
-	text-align: center;
-	padding-top: 10px;
-	border: groove medium;
-	margin: auto;
-	width: 100%;
+	display: none;
 }
 
 section {
 	width: 100%;
 	background-image:url('images/inner_background.gif');
 	overflow: hidden;
-	border-right: groove medium #442103;
-	border-left: groove medium #442103;
 	margin: auto;
 }	
 
@@ -45,8 +37,6 @@ nav {
 		
 }
 nav a{
-	border: 1px inset #B56726;
-	background-color: #B56726;
 	line-height:250%; 
 	color: #FFFFFF; 
 	font-weight: bold; 
@@ -56,6 +46,24 @@ nav a{
 }
 nav a:hover{
 	color: yellow;
-	border: 2px outset #442103; 
+	border: 2px outset ; 
 }
-
+img{
+	display:none;
+}
+.floatright{float: right; 
+    border: 5px double ; 
+    margin-left: 5px; 
+    margin-top: 15px; 
+    margin-right: 5px;
+    }
+.floatleft{float: left; 
+    border: 5px double ; 
+    margin-left: 5px; 
+    margin-top: 5px; 
+    margin-right: 5px;
+    }
+.center{
+	text-align: center;
+	align-content: center;
+}

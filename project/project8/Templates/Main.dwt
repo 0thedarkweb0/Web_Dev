@@ -20,17 +20,18 @@
 		<center>
 			<img src="../images/Banner.jpg" alt="logo">
 		</center>
+		<br>
 	</header>
 	<section width="860px">
 		<nav>
-			<a href="#">&nbsp;Home&nbsp;</a>
-			<a href="#">&nbsp;About Us&nbsp;</a>
-			<a href="#">&nbsp;Tributes&nbsp;</a>	
-			<a href="#">&nbsp;Survey&nbsp;</a>
-			<a href="#">&nbsp;Favorites&nbsp;</a>
+			<a href="Home.html">&nbsp;Home&nbsp;</a>
+			<a href="AboutUs.html">&nbsp;About Us&nbsp;</a>
+			<a href="Tributes.html">&nbsp;Tributes&nbsp;</a>	
+			<a href="Survey.html">&nbsp;Survey&nbsp;</a>
+			<a href="Links.html">&nbsp;Favorites&nbsp;</a>
 		</nav>
-		<!-- TemplateBeginEditable name="PageContent" -->
 		<article width="860px">
+		<!-- TemplateBeginEditable name="PageContent" -->
 		  <p>Welcome to Native Cooking of Utah! 
 		    If you love to cook like we do, you should enjoy looking around this site.  
 		    Take a look at our Recipes and take the opportunity to complete our survey.</p>
@@ -38,8 +39,9 @@
 		  <img src="../images/thumbnail/ForkSaladsm.jpg" alt="Green Jello" onMouseOver="swapImage(2);" width="190" height="130" class="hoverImg"> <img src="../images/thumbnail/RasberryCakeSm.jpg" alt="Rasberry Cake" width="190" height="130" onMouseOver="swapImage(3);" class="hoverImg"> <br>
 		  <img src="../images/fullsize/RasberryCakeLg.jpg" alt="Hover Over an image" width="395" height="272" id="theImage" class="hoverImg">
 		  <h3 id="bottomText">Rasbery cake</h3>
+		<!-- TemplateEndEditable -->	
 	    </article>
-		<!-- TemplateEndEditable --></section>
+		</section>
 	<footer>
 		<p>Contact us by email 
 			<a href="mailto:christopher.santiagocowdell@gmail.com">Christopher Cowdell</a>

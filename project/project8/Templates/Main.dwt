@@ -14,11 +14,11 @@
 
 <body onload="preloadImages()">
 	<header width="860px">
-		<a href="../logo.html" onmouseover="document.logo.src=logo2.src;" onmouseout="document.logo.src=logo1.src;">
+		<a href="../index.html" onmouseover="document.logo.src=logo2.src;" onmouseout="document.logo.src=logo1.src;">
 			<img src="../images/Icon-final.jpg" name="logo" alt="logo" class="logoleft">
 		</a>
 		<center>
-			<img src="../images/Banner.jpg" alt="logo">
+			<img src="../images/Banner.jpg" alt="logoo">
 		</center>
 		<br>
 	</header>

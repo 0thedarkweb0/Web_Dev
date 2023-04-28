@@ -5,23 +5,8 @@
 }
 body{
 	color: #241203;
-	background-image: url('images/background.gif');
+	background: #442103;
 	text-align: center;
-}
-
-section {
-	width: 860px;
-	background-image:url('images/inner_background.gif');
-	overflow: hidden;
-	border-right: groove medium #442103;
-	border-left: groove medium #442103;
-	margin: auto;
-}	
-
-article {
-	float: right;
-	width: 740px;
-	padding: 5px;
 }
 header{
 	width: 860px;

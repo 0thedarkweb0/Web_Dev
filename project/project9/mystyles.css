@@ -1,0 +1,90 @@
+
+/* the rest*/
+.hoverImg{
+	border: 5px double #8F480D;
+}
+body{
+	color: #241203;
+	background-image: url('../project8/images/background.gif');
+	text-align: center;
+}
+
+section {
+	width: 860px;
+	background-image:url('../project8/images/inner_background.gif');
+	overflow: hidden;
+	border-right: groove medium #442103;
+	border-left: groove medium #442103;
+	margin: auto;
+}	
+
+article {
+	float: right;
+	width: 740px;
+	padding: 5px;
+}
+header{
+	width: 860px;
+	height: 150px;
+	background-color: #F5AE73;
+	text-align: center;
+	padding-top: 10px;
+	border: groove medium #442103;
+	margin: auto;
+}
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+	align-content: center;
+}
+footer {
+	text-align: center;
+	width: 860px;
+	height: 70px;
+	border: groove medium #442103;
+	background-color: #F5AE73;
+	margin:auto;
+}
+.logoleft{
+	float: left;
+	padding-left: 15px;
+}
+nav {
+		float: left;
+		width: 100px;
+		padding-left: 10px;
+		background-repeat: repeat-y;
+		
+}
+nav a{
+	border: 1px inset #B56726;
+	background-color: #B56726;
+	line-height:250%; 
+	color: #FFFFFF; 
+	font-weight: bold; 
+	font-size: 17px; 		
+	text-decoration: none;
+	width: 100%
+}
+nav a:hover{
+	color: yellow;
+	border: 2px outset #442103; 
+}
+.floatright{float: right; 
+    border: 5px double #8F480D; 
+    margin-left: 5px; 
+    margin-top: 15px; 
+    margin-right: 5px;
+    }
+.floatleft{float: left; 
+    border: 5px double #8F480D; 
+    margin-left: 5px; 
+    margin-top: 5px; 
+    margin-right: 5px;
+    }
+.center{
+	text-align: center;
+	align-content: center;
+}
+.alt{
+	color: #F5AE73;
+}

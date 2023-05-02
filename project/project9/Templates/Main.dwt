@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Native Cooking: Home</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../../project9/mystyles.css">
+<link rel="stylesheet" href="../../project9/print.css" media="print">
+	<script type="text/javascript" src="../../project9/myscripts.js"> </script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body onload="preloadImages()">
+	<header width="860px">
+		<a href="../../project9/index.html" onmouseover="document.logo.src=logo2.src;" onmouseout="document.logo.src=logo1.src;">
+			<img src="../../project9/images/Icon-final.jpg" name="logo" alt="logo" class="logoleft">
+		</a>
+		<center>
+			<img src="../../project9/images/Banner.jpg" alt="logoo">
+		</center>
+		<br>
+	</header>
+	<section width="860px">
+		<nav>
+			<a href="../../project9/Home.html">&nbsp;Home&nbsp;</a>
+			<a href="../../project9/AboutUs.html">&nbsp;About Us&nbsp;</a>
+			<a href="../../project9/Tributes.html">&nbsp;Tributes&nbsp;</a>	
+			<a href="../../project9/Survey.html">&nbsp;Survey&nbsp;</a>
+			<a href="../../project9/Links.html">&nbsp;Favorites&nbsp;</a>
+		</nav>
+		<article width="860px">
+		<!-- TemplateBeginEditable name="PageContent" -->
+		  <p>Welcome to Native Cooking of Utah! 
+		    If you love to cook like we do, you should enjoy looking around this site.  
+		    Take a look at our Recipes and take the opportunity to complete our survey.</p>
+		  <img src="../../project9/images/thumbnail/Chef2Sm.jpg" alt="Chef" onMouseOver="swapImage(0);" width="190" height="130" class="hoverImg"> <img src="../../project9/images/thumbnail/DutchOvenSm.jpg" alt="Dutch Oven" onMouseOver="swapImage(1);" width="190" height="130" class="hoverImg"> <br>
+		  <img src="../../project9/images/thumbnail/ForkSaladsm.jpg" alt="Green Jello" onMouseOver="swapImage(2);" width="190" height="130" class="hoverImg"> <img src="../../project9/images/thumbnail/RasberryCakeSm.jpg" alt="Rasberry Cake" width="190" height="130" onMouseOver="swapImage(3);" class="hoverImg"> <br>
+		  <img src="../../project9/images/fullsize/RasberryCakeLg.jpg" alt="Hover Over an image" width="395" height="272" id="theImage" class="hoverImg">
+		  <h3 id="bottomText">Rasbery cake</h3>
+		<!-- TemplateEndEditable -->	
+	    </article>
+		</section>
+	<footer>
+		<p>Contact us by email 
+			<a href="mailto:christopher.santiagocowdell@gmail.com">Christopher Cowdell</a>
+			<br>
+			This web site has been created solely for
+			educational purposes.
+		</p>
+	</footer>
+</body>
+</html>

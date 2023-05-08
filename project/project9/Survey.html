@@ -34,26 +34,53 @@
 		<!-- InstanceBeginEditable name="PageContent" -->
 		<article width="860px">
 		  <h1>Customer Survey</h1>
-			<form id="myForm">
+			<p>Answer this to help us improve our web sitt. Thank You</p>
+			<form id="survey" name="CustomerSurvey" action="FormToEmail.php" method="post" target="_blank">
 				<label for="ffood">Favorite Food:</label>
 				<input type="text" id="ffood" name="ffood">
-				<h4 class="floater">Rate Us:
+				<h4>Rate Us:
 					<input type="radio" id="f1" name="frate" value="1">
   					<label for="1">1 Star</label>
 					<br>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="f2" name="frate" value="2">
   					<label for="2">2 Star</label>
-					<br>
+					<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<input type="radio" id="f3" name="frate" value="3">
   					<label for="3">3 Star</label>
-					<br>
+					<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<input type="radio" id="f4" name="frate" value="4">
   					<label for="4">4 Star</label>
-					<br>
-					<input type="radio" id="f5" name="frate" value="5">
+					<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="radio" id="f5" name="frate" value="5" checked="checked">
   					<label for="5">5 Star</label>
 					<br>
 				</h4>
+				<h4>
+					<label for="fxp">Cooking experience:</label>
+  					<select id="fxp" name="fxp">
+    						<option value="begin">Commis Chef 1-2 Years</option>
+   							<option value="intermediate">Chef de Partie 2-5 Years </option>
+   							<option value="advanced">Sous Chef 5-9 Years</option>
+    						<option value="expert">Chef de Cuisine 10+ Years</option>
+ 					</select>
+				</h4><h4>
+					What pages did you think we did well?
+					<br>
+					<input type="checkbox" id="checkhome" name="home" value="home">
+ 					<label for="home">Home</label><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" id="checkabout" name="about" value="about">
+ 					<label for="home">About Us</label><br>&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" id="checktributes" name="tributes" value="tributes">
+ 					<label for="tributes">Tributes</label><br>&nbsp;
+				<input type="checkbox" id="checksurvey" name="survey" value="survey">
+ 					<label for="survey">Survey</label><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" id="checkfavorites" name="favorites" value="favorites">
+ 					<label for="favorites">Favorite Links</label><br>
+				</h4>
+				<label for="comments">Comments</label><br>
+				<textarea id="Comments" rows="4" cols="40"></textarea>
+				<br>
 				<input type="submit" value="submit">
 					&nbsp;&nbsp;|&nbsp;&nbsp;
 				<input type="reset" value="Reset Form">

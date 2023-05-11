@@ -26,37 +26,77 @@ l
             </ul>
         </nav>
     </header>
+	<br>
+	<br>
+	<br>
+	<main>
+		<div class="login-widget">
+			<center>
+				<h4>Work in progress</h4>
+			<form action="#" data-login="#" data-banking="#" method="post" autocomplete="off" id="nav-login" class="login-widget-form">
+	      	<input type="hidden" id="pm_fp" name="pm_fp" value="">
+	      <div class="input-group mx-auto">
+	        <label class="sr-only" for="txtUserID">ACCOUNT NUMBER</label>
+	        <input type="text" class="form-control login-input-user" name="Username" id="txtUserID" placeholder="Account Number (User ID)" aria-label="Account Number" autofocus="">
+			  <br>
+			  <br>
+			 <label class="sr-only" for="txtUserID">Password</label>
+	        <input type="password" class="form-control login-input-user" name="passowrd" id="txtPassword" placeholder="Password" aria-label="Account Number" autofocus="">
+	        <br>
+			  <br>
+	      </div>
+	      <span class="text-center login-btn-grp input-group-btn">
+	        <button class="btn-fucu-login" type="submit" id="btnLogin" data-analytics-login-button="LOGIN">LOGIN</button>
+	      </span>
+	   		</form>
+			</center>
+		</div>
+		<br>
+		 <!-- Slideshow container -->
+<div class="slideshow-container fade">
+	<h3>Our Happy customers </h3>
+
+  <!-- Full images with numbers and message Info -->
+  <div class="Containers">
+    <img src="img1.jpg" style="width:100%">
+    <div class="Info">Santiago Li</div>
+  </div>
+
+  <div class="Containers">
+    <img src="img2.jpg" style="width:100%">
+    <div class="Info">Casy bills</div>
+  </div>
+
+  <div class="Containers">
+    <img src="img3.jpg" style="width:100%">
+    <div class="Info">Carter</div>
+  </div>
+
+  <!-- Back and forward buttons -->
+  <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The circles/dots -->
+<div style="text-align:center">
+  <span class="dots" onclick="currentSlide(1)"></span>
+  <span class="dots" onclick="currentSlide(2)"></span>
+  <span class="dots" onclick="currentSlide(3)"></span>
+</div> 
+	</main>
 
     <!-- Site Footer -->
     <footer>
     <div class="footer-content">
-            <ul class="footer-social">
-                <li>
-                    <a href="#">
-                        <img class="social-default" src="images/social-facebook.png" hidden="true">
-                        <img class="social-hover" src="images/social-facebook-hover.png" hidden="true">
-                        <img class="social-hover" src="images/social-facebook-hover.png" hidden="true">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img class="social-default" src="images/social-pinterest.png">
-                        <img class="social-hover" src="images/social-pinterest-hover.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img class="social-default" src="images/social-twitter.png">
-                        <img class="social-hover" src="images/social-twitter-hover.png">
-                    </a>
-                </li>
-            </ul>
+    
             <div class="footer-info">
                 <p class="footer-credit">Website design by Christopher Cowdell</p>
                 <p class="footer-disclaimer">Not a real bank only used for Brandt Wilcoxs currency U-Bill</p>
                 <p class="footer-legal">&copy; 2075 FUCU Co. </p>
             </div>
         </div>
+		<script src="index.js"></script>
     </footer>
     
 </body>

@@ -189,9 +189,18 @@ footer {
 }
 .checking{
 	width: 75%;
+	align-self: center;
+	align-content: center;
+	text-align: center;
 }
 .premium{
 	display: inline;
 	margin-left: 20em;
 	color: darkgoldenrod;
+}
+.savings{
+	width: 75%;
+	align-self: center;
+	align-content: center;
+	text-align: center;
 }

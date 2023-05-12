@@ -7,7 +7,13 @@ header {
   z-index: 1000;
 }
 body{
-	background: #f0f8f5;
+height: 100%;
+margin: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-image:-moz-linear-gradient( -45deg, #f0f8f5 0%, #046241 100%);
+background-image: -webkit-linear-gradient( -45deg, #f0f8f5 0%, #046241 100%);
+background-image: -ms-linear-gradient( -45deg, #f0f8f5 0%, #046241 100%);
 }
 .site-logo {
   position: relative;
@@ -60,10 +66,7 @@ body{
 }
 footer {
   margin-top: -3.5em;
-  padding-top: 10em;
-  background-image:-moz-linear-gradient( -45deg, #f0f8f5 0%, #046241 100%);
-  background-image: -webkit-linear-gradient( -45deg, #f0f8f5 0%, #046241 100%);
-  background-image: -ms-linear-gradient( -45deg, #f0f8f5 0%, #046241 100%);
+	padding-top: 10em;
 }
 .footer-content {
   width: 64%;
@@ -100,13 +103,15 @@ footer {
 .login-widget{
 	float: right;
 	padding-top: 1.5em;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
-	margin-right: 1.5em;
+	margin-top: 10%;
+	padding-left: 1.4em;
+	padding-right: 1.4em;
+	margin-right: 10%;
 	padding-bottom: 1.5em;
 	border-radius: 25px;
 	background: #046241;
 	border: ridge #a2ebcf;
+	z-index: 69;
 }
 
 .navlink {
@@ -117,15 +122,14 @@ footer {
 	background-color:#a2ebcf;
 	font-weight:bold;
 	border-radius:0;
-	font-size:.875rem;
+	font-size:.875em;
 }
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 250px;
-  position: relative;
-  margin: auto;
+  max-width: 25%;
+ 
 }
 
 /* Make the images invisible by default */
@@ -133,27 +137,6 @@ footer {
 	display: none;
 }
 
-/* forward & Back buttons */
-.Back, .forward {
-  cursor: pointer;
-  position: absolute;
-  top: 48%;
-  width: auto;
-  margin-top: -23px;
-  padding: 17px;
-  color: grey;
-  font-weight: bold;
-  font-size: 19px;
-  transition: 0.4s ease;
-  border-radius: 0 5px 5px 0;
-  user-select: none;
-}
-
-/* Place the "forward button" to the right */
-.forward {
-  right: 0;
-  border-radius: 4px 0 0 4px;
-}
 
 /*when the user hovers,add a black background with some little opacity */
 .Back:hover, .forward:hover {
@@ -203,4 +186,12 @@ footer {
 @keyframes fade {
   from {opacity: .5}
   to {opacity: 2}
+}
+.checking{
+	width: 75%;
+}
+.premium{
+	display: inline;
+	margin-left: 20em;
+	color: darkgoldenrod;
 }
